@@ -1,0 +1,86 @@
+
+
+/* resetting default margin padding and box-sizing for all elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts used */
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* some common design for reuse */
+
+.primary-button {
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #4E47FF;
+    border: none;
+}
+
+/* hero section started  */
+
+.hero-section {
+  background-image: url('../assets/Hero-bg.png');
+  height: 698px;
+  background-size: cover;
+}
+
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 151px;
+}
+
+.hero-content {
+    max-width: 905px;
+    height: 237px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 158px;
+    text-align: center;
+}
+
+.logo {
+  font-size: 34px;
+  color: #4E47FF;
+  font-weight: 900;   
+}
+
+.hero-nav button, .hero-content button {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hero-text {
+    font-weight: 700px;
+    font-size: 65px;
+    padding-bottom: 37px;
+}
+
+
+/* hero section ended  */
+
+
