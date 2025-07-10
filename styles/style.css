@@ -101,6 +101,8 @@
 
 .webflow-conf {
     border-radius: 48px;
+    width: 403px;
+    height: 328px;
 }
 
 .in-action h3 {
@@ -119,4 +121,46 @@
 
 
 /* See It in Action ended  */
+
+/* Joined Thousands of Productive Users section started */
+
+.productive-users {
+    max-width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+
+.productive-users-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productive-users-data h4 {
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+
+.productive-users-data p {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.productive-users-container h3 {
+    font-weight: 700;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+
+/* Joined Thousands of Productive Users section ended */
+
 
