@@ -359,3 +359,53 @@ textarea {
 
 /* get in touch section ended  */
 
+/* footer started */
+
+footer {
+    background-color: #FFFFFF;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.footer-container {
+    max-width: 531px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 104px 0;
+
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    padding-top: 20px;
+    list-style: none;
+    margin: 0;
+    color: #8987A1;
+}
+
+a {
+    text-decoration: none;
+    color: #8987A1;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-container h2 {
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+}
+
+.footer-container p {
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    color: #8987A1;
+}
+
+/* footer ended */
